@@ -243,6 +243,9 @@ a:focus {
   width: 100%;
   position: unset;
 }
+.slider_section .left-text-pic {
+  padding-left: 25px;
+}
 .slider_section .detail-box {
   color: #4472c4;
 }
@@ -269,6 +272,7 @@ a:focus {
 .slider_section .detail-box a:hover {
   background-color: transparent;
   color: #f3c93e;
+
 }
 .slider_section .img-box img {
   width: 100%;

@@ -361,12 +361,18 @@
       
 </section>
 
-<!-- 
+
+
+
+
+
+
+
   <section class="client_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Robotic Manipulation
+          Demo
         </h2>
       </div>
     </div>
@@ -381,15 +387,18 @@
               <div class="col-md-4 ml-auto">
                 <div class="detail-box pr-md-3">
                   <p style="font-size: 24px;">
-                    Level 1: <br>
-                    Grasp the Milk.
+                    Easy Level: <br>
+                    It's quite toasty inside, <br> could you please lower the air conditioning temperature?
+                    <br><br>
+                    Goal:<br> Low(ACTemperature)
                   </p>
+                  <img src="images/tree_easy.svg" alt="" width="800">
                 </div>
               </div>
               <div class="col-md-6 px-10">
                 <div class="img-box">
                   <video  width="100%" height="640" poster="" id="steve" autoplay controls muted loop playsinline>
-                    <source src="videos/Level1.mp4"
+                    <source src="videos/demo_easy.mp4"
                             type="video/mp4">
                   </video>  
                 </div>
@@ -397,21 +406,26 @@
             </div>
           </div>
         </div>
+
+
         <div class="carousel-item">
           <div class="container-fluid  ">
             <div class="row">
               <div class="col-md-4 ml-auto">
                 <div class="detail-box pr-md-3">
                   <p style="font-size: 24px;">
-                    Level 2: <br>
-                    Grasp the NFCJuice.
+                    Medium Level: <br>
+                    Could you please not put the carton drink <br> on table one and close the curtain?
+                    <br><br>
+                    Goal:<br> ~On(Softdrink,Table1) & Closed(Curtain)
                   </p>
+                  <img src="images/tree_medium.svg" alt="" width="920">
                 </div>
               </div>
               <div class="col-md-6 px-10">
                 <div class="img-box">
                   <video  width="100%" height="640" poster="" id="steve" autoplay controls muted loop playsinline>
-                    <source src="videos/Level2.mp4"
+                    <source src="videos/demo_medium.mp4"
                             type="video/mp4">
                   </video>  
                 </div>
@@ -419,21 +433,27 @@
             </div>
           </div>
         </div>
+
+
         <div class="carousel-item">
           <div class="container-fluid  ">
             <div class="row">
               <div class="col-md-4 ml-auto">
                 <div class="detail-box pr-md-3">
                   <p style="font-size: 24px;">
-                    Level 3: <br>
-                    Hey Robot, could you grasp me the brown bottle of Coffee?
+                    Hard Level: <br>
+                    Could you please turn on the coffee machine at the bar, and <br> make sure the floor is clean or the tube light is off? <br> I enjoy my coffee in a cozy environment.
+                    <br><br>
+                    Goal:<br> On(Coffee,Bar) & (IsClean(Floor) | ~Active(TubeLight))
                   </p>
+                  <img src="images/tree_hard.svg" alt="" width="920">
+                  <!-- <img src="images/tree_hard.png" alt="" width="920" height="300"> -->
                 </div>
               </div>
               <div class="col-md-6 px-10">
                 <div class="img-box">
                   <video  width="100%" height="640" poster="" id="steve" autoplay controls muted loop playsinline>
-                    <source src="videos/Level3.mp4"
+                    <source src="videos/demo_hard.mp4"
                             type="video/mp4">
                   </video>  
                 </div>
@@ -441,29 +461,8 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="container-fluid  ">
-            <div class="row">
-              <div class="col-md-4 ml-auto">
-                <div class="detail-box pr-md-3">
-                  <p style="font-size: 24px;">
-                    Level 4: <br>
-                    Robot, could you please fetch the white cylindrical tube to me?  It's in front of you, on the right.  I need it to brush my teeth.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 px-10">
-                <div class="img-box">
-                  <video  width="100%" height="640" poster="" id="steve" autoplay controls muted loop playsinline>
-                    <source src="videos/Level4.mp4"
-                            type="video/mp4">
-                  </video>  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
         <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev" >
             <span>
@@ -480,7 +479,7 @@
         </div>
       </div>
      
-    </section> -->
+    </section> 
 
     <!-- <section class="about_section"><br></section>
 
